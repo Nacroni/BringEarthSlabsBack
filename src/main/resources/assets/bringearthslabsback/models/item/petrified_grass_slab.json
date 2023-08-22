@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bringearthslabsback:item/grass_block_top"
+  },
+  "render_type": "translucent"
+}

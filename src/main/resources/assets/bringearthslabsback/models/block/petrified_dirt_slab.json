@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bringearthslabsback:block/dirt_minecraftr",
+    "top": "bringearthslabsback:block/dirt_minecraftr",
+    "side": "bringearthslabsback:block/dirt_minecraftr"
+  },
+  "render_type": "solid"
+}

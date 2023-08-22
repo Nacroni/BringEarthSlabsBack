@@ -1,0 +1,142 @@
+{
+  "mod_elements": [
+    {
+      "name": "DirtSlab",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bringearthslabsback/models/block/dirt_slab_full.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/dirt_slab.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/dirt_slab_top.json",
+          "src/main/resources/assets/bringearthslabsback/models/item/dirt_slab.json",
+          "src/main/java/com/nacroni/bringearthslabsback/block/DirtSlabBlock.java",
+          "src/main/resources/assets/bringearthslabsback/blockstates/dirt_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PetrifiedDirtSlab",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/com/nacroni/bringearthslabsback/block/PetrifiedDirtSlabBlock.java",
+          "src/main/resources/assets/bringearthslabsback/models/block/petrified_dirt_slab_full.json",
+          "src/main/resources/assets/bringearthslabsback/blockstates/petrified_dirt_slab.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/petrified_dirt_slab_top.json",
+          "src/main/resources/assets/bringearthslabsback/models/item/petrified_dirt_slab.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/petrified_dirt_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassSlab",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/com/nacroni/bringearthslabsback/block/GrassSlabBlock.java",
+          "src/main/resources/assets/bringearthslabsback/models/block/grass_slab_top.json",
+          "src/main/resources/assets/bringearthslabsback/blockstates/grass_slab.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/grass_slab.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/grass_slab_full.json",
+          "src/main/resources/assets/bringearthslabsback/models/item/grass_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PetrifiedGrassSlab",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_grass_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bringearthslabsback/blockstates/petrified_grass_slab.json",
+          "src/main/java/com/nacroni/bringearthslabsback/block/PetrifiedGrassSlabBlock.java",
+          "src/main/resources/assets/bringearthslabsback/models/item/petrified_grass_slab.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/petrified_grass_slab.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/petrified_grass_slab_top.json",
+          "src/main/resources/assets/bringearthslabsback/models/block/petrified_grass_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtSlabRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bringearthslabsback/recipes/dirt_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassSlabRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bringearthslabsback/recipes/grass_slab_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.bringearthslabsback.petrified_grass_slab": "Petrified Grass Slab",
+      "block.bringearthslabsback.dirt_slab": "Dirt Slab",
+      "block.bringearthslabsback.petrified_dirt_slab": "Petrified Dirt Slab",
+      "block.bringearthslabsback.grass_slab": "Grass Slab"
+    },
+    "es_es": {
+      "block.bringearthslabsback.petrified_grass_slab": "Losa Hierba Petrificada",
+      "block.bringearthslabsback.dirt_slab": "Suciedad Losa",
+      "block.bringearthslabsback.petrified_dirt_slab": "Losa Suciedad Petrificada",
+      "block.bringearthslabsback.grass_slab": "Losa Hierba"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bringearthslabsback",
+    "modName": "BringEarthSlabsBack!",
+    "version": "0.0.1",
+    "description": "Brings Dirt and Grass slabs back. Made with MCreator.",
+    "author": "Nacroni, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.nacroni.bringearthslabsback",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
